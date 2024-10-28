@@ -20,4 +20,5 @@ The directory data contains three subdirectories:
 - _input_ that contains two files (binary and rest, i.e. free-form, questions).
 - _adversarial_ that contains the files with generated adversarial (wrong) answers only for free-form questions.
 - _results_ that contains final files
+  
 Each JSON file in the subdirectories is zipped and needs to be unzipped.
