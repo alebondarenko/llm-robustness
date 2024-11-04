@@ -1,6 +1,6 @@
 # LLM Robustness Against Misinformation in Biomedical Question Answering
 
-Code and resources that implement experiments for the paper _LLM Robustness Against Misinformation in Biomedical Question Answering_.
+Code and resources that implement experiments for the paper [_LLM Robustness Against Misinformation in Biomedical Question Answering_](https://arxiv.org/abs/2410.21330).
 
 ### Installation
 
@@ -22,3 +22,16 @@ The directory data contains three subdirectories:
 - _results_ that contains final files
   
 Each JSON file in the subdirectories is zipped and needs to be unzipped.
+
+### Citation
+```
+@misc{bondarenko:2024,
+      title={LLM Robustness Against Misinformation in Biomedical Question Answering}, 
+      author={Alexander Bondarenko and Adrian Viehweger},
+      year={2024},
+      eprint={2410.21330},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2410.21330}, 
+}
+```
