@@ -30,9 +30,9 @@ To repeat all the steps, use the _scripts_:
 
 1. For binary questions: TODO
 2. For free-form questions, there are generally three types of scripts:
-   - main_<model_name>_<model_name>_rest.py (model_name: mixtral, llama, gemma, or gpt4o): takes the input data, and generates adversarial contexts and answers by the same model (adversarial model == target model).
-   - main_<model_name>_model_rest.py: will use the resulting file produced in the previous step and will generate the answers by the target models (target model != adversarial model and != gpt4o).
-   - main_<model_name>_gpt4o_rest.py: will use gpt4o as a target model (we will additionally save logprobs from the target model).       
+   - `main_<model_name>_<model_name>_rest.py`  (model_name: mixtral, llama, gemma, or gpt4o): takes the input data, and generates adversarial contexts and answers by the same model (adversarial model == target model).
+   - `main_<model_name>_model_rest.py`  will use the resulting file produced in the previous step and will generate the answers by the target models (target model != adversarial model and != gpt4o).
+   - `main_<model_name>_gpt4o_rest.py`  will use gpt4o as a target model (we will additionally save logprobs from the target model).       
 
 ### Citation
 ```
