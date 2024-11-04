@@ -9,13 +9,13 @@ from utils.data import AdversarialDocument, json_to_dataframe
 from utils.generate import Generator
 
 
-IN_FILE = Path("temp/rest_questions_adversarial_gemma9b_gemma9b.json")
-OUT_FILE = Path("temp/rest_questions_adversarial_gemma9b_llama70b.json")
+IN_FILE = Path(<path + rest_questions_adversarial_gemma9b_gemma9b.json>)
+OUT_FILE = Path(<path + rest_questions_adversarial_gemma9b_<model_name>.json>)
 
 NUM_ENTRIES = None
 SLEEP = 0
 
-generator = Generator("llama-3.1-70b")
+generator = Generator("llama-3.1-70b") # any from: mixtral, llama-3.1-70b, gemma2-9b, openai
 
 logger.info(f"Processing {IN_FILE.stem}...")
 if OUT_FILE.exists():

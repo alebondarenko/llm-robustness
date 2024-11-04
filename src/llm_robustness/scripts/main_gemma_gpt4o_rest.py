@@ -10,8 +10,8 @@ from utils.generate import Generator
 from utils.helper import to_list_dict
 
 
-IN_FILE = Path("temp/rest_questions_adversarial_gemma9b_gemma9b.json")
-OUT_FILE = Path("temp/rest_questions_adversarial_gemma9b_gpt4o.json")
+IN_FILE = Path(<path + rest_questions_adversarial_gemma9b_gemma9b.json>)
+OUT_FILE = Path(<path + rest_questions_adversarial_gemma9b_gpt4o.json>)
 
 NUM_ENTRIES = None
 SLEEP = 0

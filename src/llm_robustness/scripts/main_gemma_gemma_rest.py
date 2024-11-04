@@ -9,8 +9,8 @@ from utils.data import RestDocument, json_to_dataframe
 from utils.generate import Generator
 
 
-IN_FILE = Path("../data/bioasq-data/rest_questions.json")
-OUT_FILE = Path("temp/rest_questions_adversarial_gemma9b_gemma9b.json")
+IN_FILE = Path(<path + rest_questions.json>)
+OUT_FILE = Path(<path + rest_questions_adversarial_gemma9b_gemma9b.json>)
 
 NUM_ENTRIES = None
 SLEEP = 0
@@ -117,4 +117,3 @@ else:
 
 logger.info(f"Saving results to {OUT_FILE}...")
 logger.info("Done.")
-# import pdb; pdb.set_trace()
