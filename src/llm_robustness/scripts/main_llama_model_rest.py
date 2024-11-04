@@ -15,7 +15,7 @@ OUT_FILE = Path(<path + rest_questions_adversarial_llama70b_<model_name>.json>)
 NUM_ENTRIES = None
 SLEEP = 0
 
-generator = Generator("gemma2-9b") # any from: mixtral, llama-3.1-70b, gemma2-9b, openai
+generator = Generator("gemma2-9b") # any from: mixtral, gemma2-9b
 
 logger.info(f"Processing {IN_FILE.stem}...")
 if OUT_FILE.exists():
