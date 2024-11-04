@@ -10,8 +10,8 @@ from utils.generate import Generator
 from utils.helper import to_list_dict
 
 
-IN_FILE = Path("../data/bioasq-data/rest_questions.json")
-OUT_FILE = Path("temp/rest_questions_adversarial_gpt4o_gpt4o.json")
+IN_FILE = Path(<path + rest_questions.json>)
+OUT_FILE = Path(<path + rest_questions_adversarial_gpt4o_gpt4o.json>)
 
 NUM_ENTRIES = None
 SLEEP = 0
@@ -180,4 +180,3 @@ else:
                 break
 logger.info(f"Saving results to {OUT_FILE}...")
 logger.info("Done.")
-# import pdb; pdb.set_trace()
